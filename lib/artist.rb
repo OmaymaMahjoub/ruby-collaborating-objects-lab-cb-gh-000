@@ -26,4 +26,6 @@ class Artist
     return arr3
   end
 
+
+
 end
