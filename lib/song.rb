@@ -3,7 +3,7 @@ class Song
   attr_accessor name
 
   @@all=Array.new
-  
+
   def initialize (name)
     @name=name
     @@all<<self
@@ -22,6 +22,6 @@ class Song
   end
 
   def self.new_by_filename(name)
-    
+
 
 end
