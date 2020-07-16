@@ -13,6 +13,7 @@ class Artist
     end
     if test==false
       @@all<<self
+    end
   end
 
   def name=(name)
