@@ -16,9 +16,8 @@ class Artist
     end
   end
 
-  def name=(name)
-    @name=name
-  end
+  attr_accessor name
+  
 
   def self.all
     @@all
