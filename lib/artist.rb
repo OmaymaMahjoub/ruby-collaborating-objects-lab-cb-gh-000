@@ -38,6 +38,8 @@ class Artist
         return a
       end
     end
-    self.name=name
+    @name=name
     return self
+
+  end
 end
