@@ -1,7 +1,7 @@
 class Artist
 
   @@all=Array.new
-  
+
   def initialize(name)
     @name=name
     test=false
@@ -39,5 +39,5 @@ class Artist
       end
     end
     self.name=name
-    return self  
+    return self
 end
